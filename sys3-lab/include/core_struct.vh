@@ -64,7 +64,11 @@ package CorePack;
         WAITFOR1, WAITFOR2,
         MEM_LOAD1, MEM_LOAD2,
         MEM_STORE1, MEM_STORE2
-    } STATE;
+    } Axi_STATE;
+
+    typedef enum logic [1:0] {
+        CMU_IDLE, CMU_READ, CMU_WRITE
+    } CMU_STATE;
 
     typedef logic [6:0] opcode_t;
     parameter LOAD_OPCODE   = 7'b0000011;

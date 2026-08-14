@@ -1,0 +1,14 @@
+`define ROM_BASE 64'h0
+`define ROM_LEN 64'h1000
+`define BUFFER_BASE 64'h10000
+`define BUFFER_LEN 64'h4000
+`define DDR_BASE 64'h80000000
+`define DDR_LEN 64'h400000
+
+`define MTIME_BASE 64'h10002000
+`define MTIME_LEN 64'h8
+`define MTIMECMP_BASE 64'h10002008
+`define MTIMECMP_LEN 64'h8
+
+`define UART_BASE 64'h10000000
+`define UART_LEN 64'h2
